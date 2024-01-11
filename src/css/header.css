@@ -1,9 +1,5 @@
 .header {
-  padding: 20px 0;
-}
-body {
   background: url('../img/mob/hero/Graphic.png');
-  color: #fff;
 }
 .nav-list {
   display: flex;
