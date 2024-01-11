@@ -1,0 +1,96 @@
+.footer {
+    padding: 50px 0;
+    background-color: #121212;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+a {
+    color: currentColor;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+input,
+button,
+textarea {
+    font: inherit;
+}
+
+.footer-container{
+    display: flex;
+
+}
+
+.footer-logo-wrapper{
+    margin-right: 285px;
+}
+
+.footer-icons-link{
+    margin-bottom: 25px;
+}
+
+.footer-contact {
+    gap: 10px;
+}
+
+.footer-contact-item-link {
+    color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.28;
+text-transform: uppercase;
+}
+
+.footer-contact-item-text {
+    color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.28;
+}
+
+
+
+.socials-link {
+    color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+
+
+
+.pages-link {
+    color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-transform: uppercase;
+}
+
+
+
+.end-text {
+    color: #FFF;
+font-family: DM Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 1.28;
+}
