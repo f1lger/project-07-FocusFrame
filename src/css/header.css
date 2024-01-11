@@ -1,7 +1,10 @@
 .header {
   padding: 20px 0;
 }
-
+body {
+  background: url('../img/mob/hero/Graphic.png');
+  color: #fff;
+}
 .nav-list {
   display: flex;
   align-items: center;
@@ -14,7 +17,6 @@
   letter-spacing: 0.02em;
   line-height: 1.5;
 }
-
 
 .nav-link:hover,
 .nav-link:focus {
