@@ -1,7 +1,3 @@
-.footer {
-    padding: 50px 0;
-    background-color: #121212;
-}
 ul {
     margin: 0;
     padding: 0;
@@ -23,18 +19,58 @@ textarea {
     font: inherit;
 }
 
+.container {
+    max-width: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+      max-width: 768px;
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+  }
+  @media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      padding-left: 100px;
+      padding-right: 100px;
+    }
+  }
+
+.footer {
+    padding: 50px 0;
+    background-color: #121212;
+}
+
+@media screen and (max-width: 767.98px) {
+    .footer {
+        text-align: center;
+    }
+  }
+
+
 .footer-container{
     display: flex;
-
+    
 }
+@media screen and (min-width: 1280px) {
+    .footer-container{
+        display: flex;
+    }
+  }
+
 
 .footer-logo-wrapper{
-    margin-right: 285px;
+    
 }
 
-.footer-icons-link{
-    margin-bottom: 25px;
-}
+
 
 .footer-contact {
     gap: 10px;
