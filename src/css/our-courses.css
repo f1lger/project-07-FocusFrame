@@ -154,8 +154,8 @@ ol {
   fill: rgba(255, 255, 255, 0.5);
 }
 
-.our-courses-icon:hover,
-.our-courses-icon:active {
+.our-courses-link:hover,
+.our-courses-link:active .our-courses-icon {
   fill: #ffffff;
 }
 
