@@ -1,8 +1,14 @@
 .container {
     padding-left: 20px;
     padding-right: 20px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 
+}
+
+.container-our-mentors{
+    max-width: 335px;
+    margin: 0 auto;
 }
 
 .fourth-title {
@@ -10,6 +16,7 @@
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: -0.04em;
+    margin-bottom: 40px;
 }
 
 .accent{
@@ -21,18 +28,19 @@
 }
 
 .fourth-title-list {
-    margin-top: 40px;
-    margin-left: 75px;
-    margin-right: 75px;
     display: flex;
     flex-wrap: wrap;
     gap: 40px;
 }
 
 .fourth-title-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
-
 }
+
+
 
 .artical-title-list {
     padding-top: 16px;
