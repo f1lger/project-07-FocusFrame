@@ -1,15 +1,15 @@
 <section>
-  <h2>Sign Up</h2>
-  <p>
+  <h2 class="title-sign-up">Sign <span class="accent-color">Up</span></h2>
+  <p class="sign-up-text">
     Please use the form below to contact us. Enter your name, email, and message
     and we'll get back to you shortly.
   </p>
-  <form class="review-form">
-    <div class="review-form-field-wrapper">
-      <label class="review-form-field-label" for="user-name"></label>
-      <div class="review-form-input-wrapper">
+  <form class="sign-up-form">
+    <div class="sign-up-form-field-wrapper">
+      <label class="sign-up-form-field-label" for="user-name"></label>
+      <div class="sign-up-form-input-wrapper">
         <input
-          class="review-form-input"
+          class="sign-up-form-input"
           id="user-name"
           name="user-name"
           placeholder="Enter your name"
@@ -20,11 +20,11 @@
         />
       </div>
     </div>
-    <div class="review-form-field-wrapper">
-      <label class="review-form-field-label" for="user-email"></label>
-      <div class="review-form-input-wrapper">
+    <div class="sign-up-form-field-wrapper">
+      <label class="sign-up-form-field-label" for="user-email"></label>
+      <div class="sign-up-form-input-wrapper">
         <input
-          class="review-form-input"
+          class="sign-up-form-input"
           id="user-email"
           name="user-email"
           placeholder="Enter your email"
@@ -33,20 +33,37 @@
         />
       </div>
     </div>
-    <div class="review-form-field-wrapper textarea">
-      <label class="review-form-field-label" for="user-comment"></label>
+    <div class="sign-up-form-field-wrapper textarea">
+      <label class="sign-up-form-field-label" for="user-comment"></label>
       <textarea
-        class="review-form-comment"
+        class="sign-up-form-comment"
         id="user-comment"
         name="user-comment"
         placeholder="Message"
         required
       ></textarea>
     </div>
-    <button class="review-form-submit-btn" type="submit">Send</button>
+    <button class="sign-up-form-submit-btn" type="submit">Send</button>
   </form>
-  <p>
-    By clicking on “Send” button, you agree to our Privacy Policy, and allow
+  <p class="sign-up-policy">
+    By clicking on “Send” button, you agree to our
+    <span class="privacy-policy-decoration">Privacy Policy</span>, and allow
     Promodo to use this information for marketing purposes.
   </p>
+  <div class="visually-hidden">
+    <img
+      src="./.jpg"
+      srcset="./.jpg 1x, ./.jpg 2x"
+      alt=""
+      width="180"
+      height="288"
+    />
+    <img
+      src="./.jpg"
+      srcset="./.jpg 1x, ./.jpg 2x"
+      alt=""
+      width="340"
+      height="540"
+    />
+  </div>
 </section>
