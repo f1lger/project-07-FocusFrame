@@ -148,17 +148,17 @@ ol {
 
 .our-courses-link:hover,
 .our-courses-link:active {
-  background-color: #bea69e;
+  background-color: #BEA69E;
 }
 
 .our-courses-icon {
-  fill: rgba(255, 255, 255, 0.5);
+  stroke: rgba(255, 255, 255, 0.5);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-courses-link:hover,
+.our-courses-link:hover .our-courses-icon,
 .our-courses-link:active .our-courses-icon {
-  fill: #ffffff;
+  stroke: #ffffff;
 }
 
 .our-courses-name {
