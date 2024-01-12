@@ -155,7 +155,7 @@ ol {
 }
 
 .our-courses-link:hover,
-.our-courses-link:active > .our-courses-icon {
+.our-courses-link:active .our-courses-icon {
   fill: #ffffff;
 }
 
