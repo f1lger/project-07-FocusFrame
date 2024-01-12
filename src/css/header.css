@@ -1,20 +1,133 @@
-.header {
+/* .header {
   background: url('../img/mob/hero/Graphic.png');
+} */
+
+/* Header */
+
+.header {
+  padding: 20px;
+  min-width: 320px;
 }
-.nav-list {
+.header-container {
+  display: flex;
+  position: relative;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  max-width: 335px;
+  height: 50px;
+
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: #121212;
+}
+
+.header-nav {
+}
+.header-list {
+  display: flex;
+}
+.header-item-logo {
+  margin: 15px 90px 15px 20px;
+  width: 127px;
+  height: 20px;
+}
+.header-link-logo {
+}
+.header-logo {
+  width: 127px;
+  height: 20px;
+  position: absolute;
+  fill: #ffffff;
+}
+.header-item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  margin: 9px 14px 9px 0;
+  border-radius: 50%;
+  background-color: #1d1d1d;
+}
+.header-link-nav {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
 }
-
-.nav-link {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  line-height: 1.5;
+.header-icon {
+  width: 16px;
+  height: 16px;
+  fill: #bea69e66;
 }
+.header-item-menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 22px;
+  margin: 14px 20px 14px 0;
+}
+.header-link-menu {
+}
+.menu-icon {
+  width: 32px;
+  height: 22px;
+  fill: #ffffff;
+}
+/* Phone menu */
 
-.nav-link:hover,
-.nav-link:focus {
-  color: #747bff;
+.phone-menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 218px;
+  height: 100%;
+  background-color: #bea69e;
+  transform: translateX(200%);
+  visibility: hidden;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.phone-menu.is-open {
+  transform: translateX(0);
+  visibility: visible;
+}
+.menu-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+.menu-wrapper-nav {
+}
+.menu-text {
+  color: #121212;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.menu-nav {
+}
+.menu-list {
+}
+.menu-item {
+  color: #121212;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.menu-img {
 }
