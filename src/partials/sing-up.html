@@ -1,0 +1,52 @@
+<section>
+  <h2>Sign Up</h2>
+  <p>
+    Please use the form below to contact us. Enter your name, email, and message
+    and we'll get back to you shortly.
+  </p>
+  <form class="review-form">
+    <div class="review-form-field-wrapper">
+      <label class="review-form-field-label" for="user-name"></label>
+      <div class="review-form-input-wrapper">
+        <input
+          class="review-form-input"
+          id="user-name"
+          name="user-name"
+          placeholder="Enter your name"
+          type="text"
+          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+          title="Oleksandr"
+          required
+        />
+      </div>
+    </div>
+    <div class="review-form-field-wrapper">
+      <label class="review-form-field-label" for="user-email"></label>
+      <div class="review-form-input-wrapper">
+        <input
+          class="review-form-input"
+          id="user-email"
+          name="user-email"
+          placeholder="Enter your email"
+          type="email"
+          required
+        />
+      </div>
+    </div>
+    <div class="review-form-field-wrapper textarea">
+      <label class="review-form-field-label" for="user-comment"></label>
+      <textarea
+        class="review-form-comment"
+        id="user-comment"
+        name="user-comment"
+        placeholder="Message"
+        required
+      ></textarea>
+    </div>
+    <button class="review-form-submit-btn" type="submit">Send</button>
+  </form>
+  <p>
+    By clicking on “Send” button, you agree to our Privacy Policy, and allow
+    Promodo to use this information for marketing purposes.
+  </p>
+</section>
