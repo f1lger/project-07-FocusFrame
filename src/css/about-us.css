@@ -7,7 +7,6 @@
   max-width: 375px;
   margin: 0 auto;
   background-color: transparent;
-  border-color: white;
 }
 @media screen and (min-width: 768px) {
   .about-us-container {
