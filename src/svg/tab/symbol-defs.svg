@@ -21,9 +21,9 @@
 <symbol id="icon-Vector_tab" viewBox="0 0 34 32">
 <path fill="#fff" style="fill: var(--color1, #fff)" opacity="0.2" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.8824" stroke="#000" d="M16.941 1.882l4.653 9.293 10.406 1.499-7.529 7.229 1.777 10.213-9.306-4.825-9.306 4.825 1.777-10.213-7.529-7.229 10.406-1.499 4.653-9.293z"></path>
 </symbol>
-<symbol id="icon-x_tab" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M24 8l-16 16"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.4" d="M8 8l16 16"></path>
+<symbol id="icon-x_tab" id="icon-x" viewBox="0 0 40 40" fill="none">
+<path d="M30 10L10 30" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M10 10L30 30" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
 </symbol>
 </defs>
 </svg>
