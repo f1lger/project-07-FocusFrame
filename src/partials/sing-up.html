@@ -1,56 +1,58 @@
-<section>
-  <h2 class="title-sign-up">Sign <span class="accent-color">Up</span></h2>
-  <p class="sign-up-text">
-    Please use the form below to contact us. Enter your name, email, and message
-    and we'll get back to you shortly.
-  </p>
-  <form class="sign-up-form">
-    <div class="sign-up-form-field-wrapper">
-      <label class="sign-up-form-field-label" for="user-name"></label>
-      <div class="sign-up-form-input-wrapper">
-        <input
-          class="sign-up-form-input"
-          id="user-name"
-          name="user-name"
-          placeholder="Enter your name"
-          type="text"
-          pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
-          title="Oleksandr"
-          required
-        />
+<section class="container sign-up-section">
+  <div class="sign-up-form-section">
+    <h2 class="title-sign-up">Sign <span class="accent-color">Up</span></h2>
+    <p class="sign-up-text">
+      Please use the form below to contact us. Enter your name, email, and
+      message and we'll get back to you shortly.
+    </p>
+    <form class="sign-up-form">
+      <div class="sign-up-form-field-wrapper">
+        <label class="sign-up-form-field-label" for="user-name"></label>
+        <div class="sign-up-form-input-wrapper">
+          <input
+            class="sign-up-form-input"
+            id="user-name"
+            name="user-name"
+            placeholder="Enter your name"
+            type="text"
+            pattern="[a-zA-Zа-яА-ЯіІїЇєЄґҐʼ]+"
+            title="Oleksandr"
+            required
+          />
+        </div>
       </div>
-    </div>
-    <div class="sign-up-form-field-wrapper">
-      <label class="sign-up-form-field-label" for="user-email"></label>
-      <div class="sign-up-form-input-wrapper">
-        <input
-          class="sign-up-form-input"
-          id="user-email"
-          name="user-email"
-          placeholder="Enter your email"
-          type="email"
-          required
-        />
+      <div class="sign-up-form-field-wrapper">
+        <label class="sign-up-form-field-label" for="user-email"></label>
+        <div class="sign-up-form-input-wrapper">
+          <input
+            class="sign-up-form-input"
+            id="user-email"
+            name="user-email"
+            placeholder="Enter your email"
+            type="email"
+            required
+          />
+        </div>
       </div>
-    </div>
-    <div class="sign-up-form-field-wrapper textarea">
-      <label class="sign-up-form-field-label" for="user-comment"></label>
-      <textarea
-        class="sign-up-form-comment"
-        id="user-comment"
-        name="user-comment"
-        placeholder="Message"
-        required
-      ></textarea>
-    </div>
-    <button class="sign-up-form-submit-btn" type="submit">Send</button>
-  </form>
-  <p class="sign-up-policy">
-    By clicking on “Send” button, you agree to our
-    <span class="privacy-policy-decoration">Privacy Policy</span>, and allow
-    Promodo to use this information for marketing purposes.
-  </p>
-  <div class="visually-hidden">
+      <div class="sign-up-form-field-wrapper textarea">
+        <label class="sign-up-form-field-label" for="user-comment"></label>
+        <textarea
+          class="sign-up-form-comment"
+          id="user-comment"
+          name="user-comment"
+          placeholder="Message"
+          required
+        ></textarea>
+      </div>
+      <button class="sign-up-form-submit-btn" type="submit">Send</button>
+    </form>
+    <p class="sign-up-policy">
+      By clicking on “Send” button, you agree to our
+      <span class="privacy-policy-decoration">Privacy Policy</span>, and allow
+      Promodo to use this information for marketing purposes.
+    </p>
+  </div>
+  <div class="sign-up-img">
     <img
       src="./.jpg"
       srcset="./.jpg 1x, ./.jpg 2x"

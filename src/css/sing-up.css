@@ -1,31 +1,8 @@
-@media screen and (max-width: 767px) {
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+.sign-up-section {
+  display: flex;
 }
 
-@media screen and (min-width: 768px) {
-  .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-  }
+.sign-up-form-section {
 }
 
 .title-sign-up {
@@ -36,6 +13,7 @@
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
+  padding-bottom: 20px;
 }
 
 .sign-up-text {
@@ -46,6 +24,7 @@
   font-weight: 400;
   line-height: 1.28;
   letter-spacing: -0.02em;
+  padding-bottom: 41px;
 }
 
 .sign-up-form-input {
@@ -56,6 +35,10 @@
   font-weight: 400;
   line-height: 1.28;
   opacity: 0.7;
+}
+
+.textarea {
+  padding-bottom: 40px;
 }
 
 .sign-up-form-comment {
@@ -76,6 +59,7 @@
   font-weight: 700;
   line-height: 1.25;
   text-transform: uppercase;
+  margin-bottom: 20px;
 }
 
 .sign-up-policy {
@@ -89,4 +73,38 @@
 
 .privacy-policy-decoration {
   text-decoration: underline;
+}
+
+.sign-up-img {
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+
+@media screen and (max-width: 767px) {
+  .sign-up-section {
+    max-width: 335px;
+    margin-bottom: 80px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sign-up-section {
+    max-width: 480px;
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .sign-up-section {
+    margin-bottom: 150px;
+  }
+
+  .sign-up-img {
+    position: relative;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
 }
