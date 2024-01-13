@@ -1,3 +1,70 @@
-.hero{
-  background: url('../img/mob/hero/Graphic.png');
+.hero {
+  background-image: url('../img/images/hero/camera-mob@1x.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 40px;
+}
+.hero-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -1.6px;
+  margin-bottom: 20px;
+}
+.hero-title-italic {
+  font-style: italic;
+  font-weight: 400;
+}
+.hero-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin-bottom: 40px;
+}
+.hero-info {
+  display: flex;
+  gap: 40px;
+}
+.hero-our-students {
+  width: 109px;
+}
+.hero-link {
+}
+.hero-our-students-list {
+  display: flex;
+}
+.hero-our-students-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.hero-our-students-image {
+  width: 100%;
+}
+.hero-link-text {
+}
+.hero-link-icon {
+}
+.hero-reviews {
+}
+.hero-reviews-icon-wrapper {
+}
+.hero-reviews-icon {
+}
+.hero-reviews-text-wrapper {
+}
+.hero-reviews-name {
+}
+.hero-reviews-amount {
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero {
+    background-image: url(../img/images/hero/camera-mob@2x.png);
+  }
 }
