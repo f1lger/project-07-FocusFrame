@@ -66,11 +66,9 @@
   margin-bottom: 20px;
 }
 .icon-star {
-  stroke: #BEA69E;
   fill: #BEA69E;
 }
 .icon-star-list:last-child {
-  stroke: #414141;
   fill: #414141;
 }
 .icon-star-lost {
