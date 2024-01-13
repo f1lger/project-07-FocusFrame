@@ -16,8 +16,22 @@
   letter-spacing: -0.04em;
 }
 .list {
+  padding: 20px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.name-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
 }
 .list-item {
 }
@@ -48,11 +62,16 @@
 }
 .stars {
   display: flex;
-  left: 86px;
-  top: 152px;
-  position: absolute;
+  padding-left: 66px;
+  margin-bottom: 20px;
 }
 .icon-star {
+  stroke: #BEA69E;
+  fill: #BEA69E;
+}
+.icon-star-list:last-child {
+  stroke: #414141;
+  fill: #414141;
 }
 .icon-star-lost {
 }
