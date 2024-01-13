@@ -17,7 +17,6 @@
     padding: 75px 100px;
   }
 }
-
 .title {
   color: #fff;
   font-size: 28px;
@@ -41,8 +40,23 @@
   flex-wrap: wrap;
   padding: 20px;
 
+
+  padding: 20px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.name-cont {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
 }
 .list-item {
 }
@@ -100,6 +114,14 @@
 }
 .icon-star {
   fill: #bea69e;
+  padding-left: 66px;
+  margin-bottom: 20px;
+}
+.icon-star {
+  fill: #BEA69E;
+}
+.icon-star-list:last-child {
+  fill: #414141;
 }
 .icon-star-lost {
   fill: #414141;
