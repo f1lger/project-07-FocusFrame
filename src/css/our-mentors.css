@@ -74,6 +74,7 @@
 
 .fourth-title-list {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
 }
@@ -81,8 +82,6 @@
 @media screen and (min-width: 768px) {
     .fourth-title-list {
         gap: 93px 100px;
-        padding-left: 108px;
-        padding-right: 108px;
     }
 
 }
@@ -90,23 +89,16 @@
 @media screen and (min-width: 1280px) {
     .fourth-title-list {
         gap: 100px;
-        padding-left: 103px;
-        padding-right: 103px;
     }
 
 }
 
 .fourth-title-wrapper {
     text-align: center;
-    padding-left: 75px;
-    padding-right: 75px;
-    width: 100%;
 }
 
 @media screen and (min-width: 768px) {
     .fourth-title-wrapper {
-        width: calc((100% - 100px) / 2);
-        padding: 0; 
     }
 
 }
