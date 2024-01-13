@@ -39,7 +39,21 @@ footer {
   margin: auto;
   padding-bottom: 25px;
 }
+@media only screen and (min-width: 768px) {
+  .container-footer{
+    max-width: 768px;
+    padding-left: 32px;
+    
+  }
+}
 
+@media only screen and (min-width: 1280px) {
+  .container-footer{
+    max-width: 1280px;
+    padding-left: 100px;
+    
+  }
+}
 .content-footer {
   display: flex;
   justify-content: space-between;
@@ -93,17 +107,51 @@ line-height: 1.28;
   display: inline-flex;
 align-items: flex-start;
   justify-content: center;
-  /*align-items: center;*/
-  margin-left: 285px;
-  
+  margin-left: 285px; 
 }
+@media only screen and (min-width: 768px) {
+  .footer-blok{
+    margin-left: 58px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer-blok{
+    margin-left: 285px;
+  }
+}
+
 .footer-socials{
   margin-right: 100px;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-socials {
+    margin-right: 25px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .footer-socials {
+    margin-right: 100px;
+  }
 }
 
 .socials-list {
   display: flex;
   margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .socials-list{
+    margin-bottom: 14px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .socials-list{
+    margin-bottom: 20px;
+  }
 }
 
 .socials-link {
@@ -126,6 +174,17 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 20px;
 }
 
+@media only screen and (min-width: 768px) {
+  .pages-list{
+    margin-bottom: 14px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .pages-list{
+    margin-bottom: 20px;
+  }
+}
 .pages-link {
   color: #FFF;
 font-family: DM Sans;
@@ -150,6 +209,16 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
+@media only screen and (min-width: 768px) {
+  .footer-subscribe-form{
+    margin-left: 59px; 
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .footer-subscribe-form{
+    margin-left: 135px; 
+  }
+}
 
 .subscribe-form-input {
   width: 216px;
@@ -165,6 +234,19 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 20px 18px;
   border: none;
   margin-right: 16px;
+}
+
+
+@media only screen and (min-width: 768px) {
+  .subscribe-form-input {
+    margin-right: 8px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .subscribe-form-input {
+    margin-right: 16px;
+  }
 }
 
 .form-button {
@@ -195,8 +277,7 @@ border: none;
 }
 
 .footer-text-one {
-  display: flex;
-  flex-wrap: wrap;
+
   text-align: left;
   
   color: #FFF;
@@ -211,8 +292,6 @@ line-height:1.28; /* 128.571% */
 }
 
 .footer-text-two {
-  display: flex;
-  flex-wrap: wrap;
   text-align: left;
   color: #FFF;
 font-family: DM Sans;
@@ -220,7 +299,4 @@ font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height:1.28; 
-margin-left: auto;
-
-
 }
