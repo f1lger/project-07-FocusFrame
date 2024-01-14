@@ -1,11 +1,12 @@
 .sign-up-section {
   display: flex;
-  margin-bottom: 75px;
 }
 
 .sign-up-form-section {
   max-width: 335px;
   max-height: 523px;
+  margin-top: 80px;
+  margin-bottom: 40px;
 }
 
 .title-sign-up {
@@ -113,22 +114,20 @@
 }
 
 @media screen and (max-width: 767px) {
-  .sign-up-section {
-    max-width: 335px;
-    margin-bottom: 80px;
-  }
 }
 
 @media screen and (min-width: 768px) {
-  .sign-up-section {
+  .sign-up-form-section {
     max-width: 480px;
-    margin-bottom: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 1280px) {
-  .sign-up-section {
-    margin-bottom: 150px;
+  .sign-up-form-section {
+    margin-top: 150px;
+    margin-bottom: 75px;
   }
 
   .sign-up-img {
