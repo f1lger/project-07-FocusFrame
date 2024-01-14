@@ -1,0 +1,28 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+
+/* ==========================================
+Single-colored icons can be modified like so:
+.icon-name_tab {
+  font-size: 32px;
+  color: red;
+}
+========================================== */
+
+.icon-FocusFrame_tab {
+  width: 7.2939453125em;
+}
+
+.icon-Nav_tab {
+  width: 1.4287109375em;
+}
+
+.icon-Vector_tab {
+  width: 1.05859375em;
+}
