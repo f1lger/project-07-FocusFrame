@@ -1,5 +1,6 @@
 .hero {
   padding-top: 40px;
+  background-image: url(../img/images/hero/Graphic.png);
 }
 .hero-container {
   width: 100%;
