@@ -5,6 +5,12 @@
   background-size: cover;
   padding-top: 40px;
 }
+.hero-container {
+  border-radius: 30px;
+  background: #1d1d1d;
+  padding-top: 40px;
+  padding-bottom: 345px;
+}
 .hero-title {
   color: #fff;
   font-size: 40px;
@@ -32,9 +38,14 @@
   width: 109px;
 }
 .hero-link {
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 .hero-our-students-list {
   display: flex;
+  margin-right: -24px;
+  margin-bottom: 4px;
 }
 .hero-our-students-item {
   width: 44px;
@@ -42,16 +53,37 @@
   border-radius: 50%;
   overflow: hidden;
 }
+.hero-our-students-item:nth-child(1) {
+  z-index: 2;
+}
+.hero-our-students-item:nth-child(2) {
+  z-index: 1;
+  position: relative;
+  left: -12px;
+}
+.hero-our-students-item:nth-child(3) {
+  position: relative;
+  left: -24px;
+}
 .hero-our-students-image {
   width: 100%;
 }
 .hero-link-text {
+  width: 67px;
 }
 .hero-link-icon {
 }
 .hero-reviews {
+  display: flex;
+  gap: 12px;
+  align-items: center;
 }
 .hero-reviews-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background-color: #bea69e;
 }
 .hero-reviews-icon {
 }
