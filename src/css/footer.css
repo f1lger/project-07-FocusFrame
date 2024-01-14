@@ -80,7 +80,7 @@ textarea {
 @media screen and (min-width: 768px) {
   .content-footer {
     display: flex;
-  justify-content: space-around;
+    justify-content: space-around;
   }
 }
 
@@ -89,8 +89,6 @@ textarea {
 .footer-logo-wrapper {
   display: flex;
   flex-direction: column;
-
-
 }
 
 
