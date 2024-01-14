@@ -11,7 +11,7 @@
     padding: 50px 32px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1280px) {
   .continer-reviews {
     max-width: 1280px;
     padding: 75px 100px;
@@ -29,6 +29,27 @@
   .title {
     font-size: 48px;
     line-height: 1.1;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .title {
+    margin-bottom: 50px;
+  }
+}
+.user-div {
+}
+@media screen and (min-width: 768px) {
+  .user-div {
+    max-width: 100%;
+    padding: 50px 32px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .user-div {
+    display: flex;
+    padding: 0;
+    gap: 20px;
   }
 }
 .list {
@@ -39,11 +60,25 @@
   row-gap: 40px;
   flex-wrap: wrap;
   padding: 20px;
-
-
-  padding: 20px;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+@media screen and (min-width: 768px) {
+  .list {
+    row-gap: 20px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .list {
+    max-width: 530px;
+    padding: 20px 20px 40px 20px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container-amanda {
+    padding: 20px 20px 20px 20px;
+  }
 }
 .name-cont {
   display: flex;
@@ -88,41 +123,79 @@
   color: #fff;
   font-size: 14px;
   font-weight: 400;
-  line-height: 18px; /* 128.571% */
+  line-height: 18px;
   letter-spacing: -0.28px;
+}
+@media screen and (min-width: 768px) {
+  .information {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+  }
 }
 .continer-star {
 }
 .stars {
   display: flex;
-  left: 106px;
   top: 192px;
+  left: 106px;
   position: absolute;
   gap: 4px;
 }
 @media screen and (min-width: 768px) {
   .stars {
     display: flex;
-    right: 84px;
+    right: 86px;
     top: 174px;
     position: absolute;
     gap: 4px;
     justify-content: flex-end;
   }
 }
+@media screen and (min-width: 1280px) {
+  .stars {
+    right: 670px;
+    top: 200px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .stars-amanda {
+    position: absolute;
+    display: flex;
+    right: 120px;
+    top: 200px;
+    gap: 4px;
+  }
+}
 .icon-star-list {
 }
+
+.icon-star {
+}
+@media screen and (min-width: 768px) {
+  .icon-star {
+    width: 20px;
+    height: 20px;
+  }
+}
+
 .icon-star {
   fill: #bea69e;
-  padding-left: 66px;
-  margin-bottom: 20px;
 }
-.icon-star {
-  fill: #BEA69E;
-}
-.icon-star-list:last-child {
-  fill: #414141;
-}
+
 .icon-star-lost {
   fill: #414141;
+}
+/* Amanda */
+@media only screen and (max-width: 1279.98px) {
+  .container-amanda {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1279.98px) {
+  .stars-amanda {
+    display: none;
+  }
 }
