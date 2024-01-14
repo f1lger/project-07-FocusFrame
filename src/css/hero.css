@@ -1,3 +1,245 @@
-.hero{
-  background: url('../img/mob/hero/Graphic.png');
+.hero {
+  padding-top: 40px;
+  background-image: url(../img/images/hero/Graphic.png);
+}
+.hero-container {
+  width: 100%;
+  border-radius: 30px;
+  background: #1d1d1d;
+  padding-top: 40px;
+  padding-bottom: 345px;
+  background-image: url('../img/images/hero/man-with-camera_mob.webp');
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 38px;
+  background-size: 259px 314px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.hero-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: -1.6px;
+  margin-bottom: 20px;
+}
+.hero-title-italic {
+  color: #bea69e;
+  font-style: italic;
+  font-weight: 400;
+}
+.hero-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.28px;
+  margin-bottom: 40px;
+}
+.hero-info {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+}
+.hero-our-students {
+  width: 109px;
+}
+.hero-link {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+.hero-our-students-list {
+  display: flex;
+  margin-right: -24px;
+  margin-bottom: 4px;
+}
+.hero-our-students-item {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.hero-our-students-item:nth-child(1) {
+  z-index: 2;
+}
+.hero-our-students-item:nth-child(2) {
+  z-index: 1;
+  position: relative;
+  left: -12px;
+}
+.hero-our-students-item:nth-child(3) {
+  position: relative;
+  left: -24px;
+}
+.hero-our-students-image {
+  width: 100%;
+}
+.hero-link-text {
+  width: 67px;
+}
+.hero-link-icon {
+}
+.hero-reviews {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.hero-reviews-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  background-color: #bea69e;
+  width: 44px;
+  height: 44px;
+  flex-shrink: 0;
+}
+.hero-reviews-icon {
+  stroke: black;
+  fill: none;
+}
+.hero-reviews-text-wrapper {
+  display: flex;
+  gap: 4px;
+  flex-direction: column;
+}
+.hero-reviews-name {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: -0.56px;
+}
+.hero-reviews-amount {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: -0.64px;
+}
+@media screen and (min-width: 375px) {
+  .hero-container {
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .hero-container {
+    background-image: url(../img/images/hero/man-with-camera_mob_2x.webp);
+  }
+}
+@media screen and (min-width: 768px) {
+  .hero-container {
+    padding-top: 64px;
+    padding-bottom: 475px;
+  }
+  .hero {
+    padding-top: 40px;
+  }
+  .hero-title {
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -2.4px;
+  }
+  .hero-title-italic {
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -2.4px;
+  }
+  .hero-text {
+    width: 418px;
+  }
+  .hero-our-students-item {
+    width: 54px;
+    height: 54px;
+  }
+  .hero-our-students-list {
+    margin-right: -28px;
+  }
+  .hero-our-students-item:nth-child(2) {
+    left: -14px;
+  }
+  .hero-our-students-item:nth-child(3) {
+    left: -28px;
+  }
+  .hero-our-students {
+    display: flex;
+    gap: 12px;
+    width: 231px;
+  }
+  .hero-link {
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+  }
+  .hero-link-text {
+    width: 82px;
+  }
+  .hero-reviews-icon-wrapper {
+    width: 50px;
+    height: 50px;
+  }
+  .hero-reviews-text-wrapper {
+    gap: 8px;
+  }
+  .hero-reviews-name {
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.64px;
+  }
+  .hero-reviews-amount {
+    line-height: 18px;
+  }
+  .hero-container {
+    background-image: url('../img/images/hero/man-with-camera_tab.webp');
+    background-position: bottom 0 left 156px;
+    background-size: 393px 434px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container {
+      background-image: url(../img/images/hero/man-with-camera_tab_2x.webp);
+    }
+  }
+}
+@media screen and (min-width: 1280px) {
+  .hero-container {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    padding-left: 32px;
+    padding-right: 467px;
+  }
+  .hero {
+    padding-top: 80px;
+  }
+  .hero-title {
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -2.56px;
+  }
+  .hero-title-italic {
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -2.56px;
+  }
+  .hero-text {
+    margin-bottom: 136px;
+  }
+  .hero-container {
+    background-image: url('../img/images/hero/man-with-camera_desk.webp');
+    background-position: bottom 0 right 50px;
+    background-size: 397px 520px;
+  }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero-container {
+      background-image: url(../img/images/hero/man-with-camera_desk_2x.webp);
+    }
+  }
+}
+@media screen and (min-width: 1440px) {
+  .hero-container {
+    background-position: bottom 0 right 100px;
+  }
 }
