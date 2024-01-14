@@ -7,7 +7,7 @@
   background: #1d1d1d;
   padding-top: 40px;
   padding-bottom: 345px;
-  background-image: url('../img/images/hero/camera-mob@1x.png');
+  background-image: url('../img/images/hero/man-with-camera_mob.webp');
   background-repeat: no-repeat;
   background-position: bottom 0 left 38px;
   background-size: 259px 314px;
@@ -121,7 +121,7 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-container {
-    background-image: url(../img/images/hero/camera-mob@2x.png);
+    background-image: url(../img/images/hero/man-with-camera_mob_2x.webp);
   }
 }
 @media screen and (min-width: 768px) {
@@ -187,7 +187,7 @@
     line-height: 18px;
   }
   .hero-container {
-    background-image: url('../img/images/hero/camera-tab@1x.png');
+    background-image: url('../img/images/hero/man-with-camera_tab.webp');
     background-position: bottom 0 left 156px;
     background-size: 393px 434px;
   }
@@ -195,7 +195,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(../img/images/hero/camera-tab@2x.png);
+      background-image: url(../img/images/hero/man-with-camera_tab_2x.webp);
     }
   }
 }
@@ -223,7 +223,7 @@
     margin-bottom: 136px;
   }
   .hero-container {
-    background-image: url('../img/images/hero/camera-desc@1x.png');
+    background-image: url('../img/images/hero/man-with-camera_desk.webp');
     background-position: bottom 0 right 50px;
     background-size: 397px 520px;
   }
@@ -231,7 +231,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(../img/images/hero/camera-desc@2x.png);
+      background-image: url(../img/images/hero/man-with-camera_desk_2x.webp);
     }
   }
 }
