@@ -94,6 +94,7 @@
   flex-shrink: 0;
 }
 .hero-reviews-icon {
+  fill: none;
 }
 .hero-reviews-text-wrapper {
   display: flex;
