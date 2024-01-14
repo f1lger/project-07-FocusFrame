@@ -1,3 +1,8 @@
+input,
+textarea {
+  outline: none;
+}
+
 .sign-up-container {
   display: flex;
   width: 335px;
@@ -7,10 +12,7 @@
 }
 
 .title-sign-up {
-  color: #fff;
-  font-family: DM Sans;
   font-size: 28px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
@@ -18,13 +20,6 @@
 }
 
 .sign-up-text {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.28;
-  letter-spacing: -0.02em;
   padding-bottom: 41px;
 }
 
@@ -33,12 +28,6 @@
 }
 
 .sign-up-form-input {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.28;
   opacity: 0.7;
   background: transparent;
   border-radius: 12px;
@@ -54,12 +43,6 @@
 }
 
 .sign-up-form-comment {
-  color: #fff;
-  font-family: DM Sans;
-  font-size: 14px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.28;
   opacity: 0.7;
   background: transparent;
   resize: none;
@@ -67,7 +50,7 @@
   border: 1px solid rgba(255, 255, 255, 0.2);
   width: 335px;
   height: 112px;
-  padding: 14px 0 14px 18px;
+  padding: 14px 0 0 18px;
 }
 
 .sign-up-form-comment:hover,
@@ -76,14 +59,12 @@
 }
 
 .textarea {
-  padding-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .sign-up-form-submit-btn {
   color: #121212;
-  font-family: DM Sans;
   font-size: 16px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.25;
   text-transform: uppercase;
@@ -103,10 +84,7 @@
 
 .sign-up-policy {
   color: rgba(255, 255, 255, 0.5);
-  font-family: DM Sans;
   font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
   line-height: 1.33;
 }
 
@@ -116,29 +94,105 @@
 
 .sign-up-img {
   position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
   display: flex;
 }
 
-@media screen and (max-width: 767px) {
+.sign-up-img-lens {
+  width: 180px;
+  height: 288px;
+  border-radius: 1000px;
+  background-color: #bea69e;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  top: 252px;
+  left: 50px;
+}
+
+.sign-up-img-lens-item {
+  padding: 76px 19px 62px 19px;
+}
+
+.sign-up-img-camera {
+  width: 340px;
+  height: 540px;
+  border-radius: 1000px;
+  background-color: #1d1d1d;
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  top: 0;
+  left: 250px;
+}
+
+.sign-up-img-camera-item {
+  padding: 156px 50px 88px 50px;
 }
 
 @media screen and (min-width: 768px) {
   .sign-up-container {
     width: 480px;
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding: 100px 0 50px 32px;
+  }
+
+  .title-sign-up {
+    font-size: 48px;
+    line-height: 1.13;
+    letter-spacing: -0.02em;
+  }
+
+  .sign-up-text {
+    padding-bottom: 40px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+
+  .sign-up-form-field-wrapper:not(:last-child) {
+    margin-bottom: 14px;
+  }
+
+  .sign-up-form-input {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 480px;
+    height: 60px;
+    padding: 20px 0 20px 18px;
+  }
+
+  .sign-up-form-comment {
+    font-size: 16px;
+    line-height: 1.25;
+    width: 480px;
+    height: 119px;
+    padding: 20px 0 0 18px;
+  }
+
+  .sign-up-form-submit-btn {
+    font-size: 18px;
+    line-height: 1.55;
+    width: 480px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  .sign-up-policy {
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
-
 @media screen and (min-width: 1280px) {
   .sign-up-container {
-    padding-top: 150px;
-    padding-bottom: 75px;
+    padding: 150px 0 75px 100px;
   }
-  .sign-up-img {
+
+  .sign-up-img-lens {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+  }
+  .sign-up-img-camera {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
