@@ -22,19 +22,13 @@ textarea {
     font: inherit;
 }
 
-footer {
-  /*position: absolute;
-  width: 100%;
-  left:0;
-  bottom:0;*/
-
+.footer {
   background-color: rgb(0, 0, 0);;
   background-image: linear-gradient(
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.3)),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)),
    url('../img/images/hero/Graphic.png');
    border: 1px solid rgba(255, 255, 255, 0.2);
-  
 }
 
 .container-footer {
@@ -42,8 +36,8 @@ footer {
   padding-top: 40px;
   padding-bottom: 20px;
   margin: 0 auto;
-    max-width: 375px;
-    position: relative;
+  max-width: 375px;
+  position: relative;
 }
 
 /*@media only screen and (max-width: 767.98px) {
@@ -60,7 +54,7 @@ footer {
   .container-footer{
     max-width: 768px;
     padding-top: 50px;
-  padding-bottom: 25px;
+    padding-bottom: 25px;
   }
 }
 
@@ -86,21 +80,23 @@ footer {
 @media screen and (min-width: 768px) {
   .content-footer {
     display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   }
 }
 
 
 
 .footer-logo-wrapper {
-  display: flex
+  display: flex;
+  flex-direction: column;
+
 
 }
+
 
 .footer-logo {
   margin-bottom: 25px;
 }
-
 
 @media only screen and (max-width: 767.98px) {
    .icons-icon{
@@ -114,10 +110,10 @@ footer {
   justify-content: space-between;
   align-items: center;
   margin: auto;
-
 }
 
-.footer-contact {
+.footer-contact-item {
+  display: flex;
   margin-bottom: 10px;
 }
 
@@ -211,6 +207,11 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .socials-link:hover {
   color: #BEA69E;
+}
+
+.footer-pages {
+  justify-content: center;
+  align-items: center;
 }
 
 .pages-list {
