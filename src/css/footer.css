@@ -303,6 +303,11 @@ textarea {
   line-height: 1.28;
   cursor: pointer;
   border: none;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+.form-button:hover {
+  background-color: #fff;
+  color: #1d1d1d;
 }
 
 .footer-bottom {
