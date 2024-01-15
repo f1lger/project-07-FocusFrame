@@ -25,7 +25,7 @@ textarea {
   background-color: rgb(0, 0, 0);
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url('../img/images/hero/Graphic.png');
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .container-footer {
