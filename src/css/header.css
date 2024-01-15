@@ -89,9 +89,12 @@
     display: none;
   }
 }
+.header-nav-list {
+  display: none;
+}
 @media screen and (min-width: 320px) {
   .header-nav-list {
-    display: none;
+    
   }
 }
 @media screen and (min-width: 1280px) {
@@ -99,8 +102,6 @@
     display: flex;
     gap: 20px;
   }
-}
-.header-nav-list {
 }
 .header-nav-item {
   font-family: DM Sans;

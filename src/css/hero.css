@@ -1,3 +1,17 @@
+.wrapper-for-img {
+  display: flex;
+  flex-direction: column;
+}
+@media only screen and (min-width: 1280px) {
+  .wrapper-for-img {
+    max-width: 563px;
+  }
+}
+
+.image-man {
+  margin: auto;
+} 
+
 .hero {
   padding-top: 40px;
 }
@@ -6,8 +20,8 @@
   border-radius: 30px;
   background: #1d1d1d;
   padding-top: 40px;
-  padding-bottom: 345px;
-  background-image: url('../img/images/hero/man-with-camera_mob.webp');
+  /* padding-bottom: 345px; */
+  /* background-image: url('../img/images/hero/camera-mob@1x.png'); */
   background-repeat: no-repeat;
   background-position: bottom 0 left 38px;
   background-size: 259px 314px;
@@ -36,8 +50,9 @@
 }
 .hero-info {
   display: flex;
-  gap: 40px;
+  justify-content: space-between;
   align-items: flex-start;
+  margin-bottom: 31px;
 }
 .hero-our-students {
   width: 109px;
@@ -123,13 +138,13 @@
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-container {
-    background-image: url(../img/images/hero/man-with-camera_mob_2x.webp);
+    /* background-image: url(../img/images/hero/man-with-camera_mob_2x.webp); */
   }
 }
 @media screen and (min-width: 768px) {
   .hero-container {
     padding-top: 64px;
-    padding-bottom: 475px;
+    /* padding-bottom: 475px; */
   }
   .hero {
     padding-top: 40px;
@@ -146,6 +161,11 @@
   }
   .hero-text {
     width: 418px;
+  }
+  .hero-info {
+    margin-bottom: 40px;
+    gap: 40px;
+    justify-content: start;
   }
   .hero-our-students-item {
     width: 54px;
@@ -189,24 +209,25 @@
     line-height: 18px;
   }
   .hero-container {
-    background-image: url('../img/images/hero/man-with-camera_tab.webp');
-    background-position: bottom 0 left 156px;
-    background-size: 393px 434px;
+    /* background-image: url('../img/images/hero/man-with-camera_tab.webp'); */
+    /* background-position: bottom 0 left 156px; */
+    /* background-size: 393px 434px; */
   }
   @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(../img/images/hero/man-with-camera_tab_2x.webp);
+      /* background-image: url(../img/images/hero/man-with-camera_tab_2x.webp); */
     }
   }
 }
 @media screen and (min-width: 1280px) {
   .hero-container {
+    display: flex;
     padding-top: 80px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
     padding-left: 32px;
-    padding-right: 467px;
+    /* padding-right: 467px; */
   }
   .hero {
     padding-top: 80px;
@@ -225,7 +246,7 @@
     margin-bottom: 136px;
   }
   .hero-container {
-    background-image: url('../img/images/hero/man-with-camera_desk.webp');
+    /* background-image: url('../img/images/hero/man-with-camera_desk.webp'); */
     background-position: bottom 0 right 50px;
     background-size: 397px 520px;
   }
@@ -233,7 +254,7 @@
     (min-resolution: 192dpi),
     (min-resolution: 2dppx) {
     .hero-container {
-      background-image: url(../img/images/hero/man-with-camera_desk_2x.webp);
+      /* background-image: url(../img/images/hero/man-with-camera_desk_2x.webp); */
     }
   }
 }

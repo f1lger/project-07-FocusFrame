@@ -15,7 +15,28 @@
 @import url('./reviews.css');
 @import url('./sing-up.css');
 
+/* Приховати вертикальну панель прокрутки */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Приховати горизонтальну панель прокрутки */
+::-webkit-scrollbar-horizontal {
+    display: none;
+}
+
+/* Приховати вертикальний бар прокрутки (WebKit/Blink) */
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+/* Приховати горизонтальний бар прокрутки (WebKit/Blink) */
+::-webkit-scrollbar-thumb-horizontal {
+    display: none;
+}
+
 body {
+  /* overflow: hidden; */
   margin: 0;
   background-color: rgb(0, 0, 0);
   color: #fff;
@@ -26,6 +47,7 @@ body {
   line-height: 1.29; /* 128.571% */
   letter-spacing: -0.28px;
   letter-spacing: -0.02em;
+
 }
 .accent-color {
   color: #bea69e;
