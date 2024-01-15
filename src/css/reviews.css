@@ -2,19 +2,19 @@
 }
 .continer-reviews {
   position: relative;
-  padding: 40px 20px;
+  padding: 40px 20px 80px ;
   max-width: 375px;
 }
 @media screen and (min-width: 768px) {
   .continer-reviews {
     max-width: 768px;
-    padding: 50px 32px;
+    padding: 50px 32px 100px;
   }
 }
 @media screen and (min-width: 1280px) {
   .continer-reviews {
     max-width: 1280px;
-    padding: 75px 100px;
+    padding: 75px 100px 150px;
   }
 }
 .title {
@@ -23,10 +23,11 @@
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: -0.04em;
-  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 @media screen and (min-width: 768px) {
   .title {
+    padding-bottom: 50px;
     font-size: 48px;
     line-height: 1.1;
     margin-bottom: 0;
@@ -34,7 +35,7 @@
 }
 @media screen and (min-width: 1280px) {
   .title {
-    margin-bottom: 50px;
+    /* margin-bottom: 50px; */
   }
 }
 .user-div {
@@ -42,7 +43,7 @@
 @media screen and (min-width: 768px) {
   .user-div {
     max-width: 100%;
-    padding: 50px 32px;
+    padding: 0 32px;
   }
 }
 @media screen and (min-width: 1280px) {

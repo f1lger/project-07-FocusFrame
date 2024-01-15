@@ -9,18 +9,20 @@ ol {
 }
 
 .our-courses-conteiner {
-  padding: 40px 20px;
+  padding: 0 20px 80px;
   max-width: 375px;
   margin: 0 auto;
 }
 @media only screen and (min-width: 768px) {
   .our-courses-conteiner {
     max-width: 768px;
+    padding-bottom: 100px;
   }
 }
 @media only screen and (min-width: 1280px) {
   .our-courses-conteiner {
     max-width: 1280px;
+    padding-bottom: 150px;
   }
 }
 .our-courses-wrap {

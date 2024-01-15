@@ -8,7 +8,8 @@ textarea {
   margin: auto;
   width: 100%;
   gap: 60px;
-  margin: 80px 0 40px;
+  margin-top: 80px;
+  margin-bottom: 40px;
   /* max-width: 335px;
   padding: 80px 20px 40px 20px;
   margin-left: 0;
@@ -35,11 +36,13 @@ textarea {
 }
 
 .sign-up-form-input {
+  max-width: 335px;
+  width: 100%;
+  color: #fff;
   opacity: 0.7;
   background: transparent;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  width: 335px;
   height: 46px;
   padding: 14px 0 14px 18px;
 }
@@ -50,12 +53,14 @@ textarea {
 }
 
 .sign-up-form-comment {
+  max-width: 335px;
+  width: 100%;
+  color: #fff;
   opacity: 0.7;
   background: transparent;
   resize: none;
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.2);
-  width: 335px;
   height: 112px;
   padding: 14px 0 0 18px;
 }
@@ -76,7 +81,8 @@ textarea {
   line-height: 1.25;
   text-transform: uppercase;
   margin-bottom: 20px;
-  width: 335px;
+  max-width: 335px;
+  width: 100%;
   padding-top: 14px;
   padding-bottom: 14px;
   border-radius: 12px;
@@ -111,7 +117,8 @@ textarea {
 @media screen and (min-width: 768px) {
   .sign-up-container {
     max-width: 768px;
-    margin: 100px 0 50px;
+    margin-top: 100px;
+    margin-bottom: 50px;
     /* max-width: 480px; */
     /* padding: 100px 32px 50px 32px; */
   }
@@ -166,7 +173,8 @@ textarea {
 @media screen and (min-width: 1280px) {
   .sign-up-container {
     max-width: 1280px;
-    margin: 150px 0 75px;
+    margin-top: 150px;
+    margin-bottom: 75px;
     /* padding: 150px 0 75px 100px; */
   }
 
