@@ -9,6 +9,7 @@ textarea {
   max-width: 335px;
   padding: 80px 20px 40px 20px;
   margin-left: 0;
+  margin-right: auto;
 }
 
 .title-sign-up {
@@ -87,7 +88,7 @@ textarea {
   color: rgba(255, 255, 255, 0.5);
   font-size: 12px;
   line-height: 1.33;
-  width: 335px;
+  max-width: 335px;
 }
 
 .privacy-policy-decoration {
@@ -103,8 +104,8 @@ textarea {
 
 @media screen and (min-width: 768px) {
   .sign-up-container {
-    width: 480px;
-    padding: 100px 0 50px 32px;
+    max-width: 480px;
+    padding: 100px 32px 50px 32px;
   }
 
   .title-sign-up {
@@ -151,12 +152,12 @@ textarea {
   .sign-up-policy {
     font-size: 14px;
     line-height: 1.29;
-    width: 480px;
+    max-width: 480px;
   }
 }
 @media screen and (min-width: 1280px) {
   .sign-up-container {
-    min-width: 1080px;
+    max-width: 1080px;
     padding: 150px 0 75px 100px;
   }
 
@@ -177,7 +178,7 @@ textarea {
   }
 
   .sign-up-img-lens-item {
-    margin: 76px 19px 62px 19px;
+    margin: 110px 0 62px 0;
   }
 
   .sign-up-img-camera {
