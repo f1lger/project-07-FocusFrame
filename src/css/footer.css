@@ -102,7 +102,6 @@ textarea {
 @media only screen and (min-width: 768px) {
   .footer-contact-list {
     max-width: 142px;
-    text-wrap: nowrap;
   }
 }
 
@@ -211,7 +210,6 @@ textarea {
 @media only screen and (min-width: 768px) {
   .pages-list {
     margin-bottom: 14px;
-    text-wrap: nowrap;
   }
 }
 
