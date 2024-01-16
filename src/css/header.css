@@ -156,8 +156,6 @@
 .header-btn {
   display: none;
   padding: 16px 58px;
-  justify-content: center;
-  align-items: center;
   width: 186px;
   height: 60px;
   border-radius: 12px;
@@ -260,7 +258,7 @@
     height: 40px;
   }
 }
-.btn-icon {
+.btn-link {
   stroke: #121212;
   width: 16px;
   height: 16px;
