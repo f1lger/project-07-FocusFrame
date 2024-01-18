@@ -88,7 +88,7 @@ button {
   margin: 0 auto;
 }
 .background-img {
-  background-image: url(../img/images/hero/Graphic.png);
+  background-image: url(../img/images/hero/graphic.png);
   padding-bottom: 80px;
 }
 @media only screen and (min-width: 768px) {
