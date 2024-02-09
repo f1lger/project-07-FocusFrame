@@ -1,32 +1,32 @@
-document.addEventListener('DOMContentLoaded', function () {
-  // Отримуємо елемент та кнопки
-  let myElement = document.getElementById('myElement');
-  let addButton = document.getElementById('addButton');
-  let removeButton = document.getElementById('removeButton');
+const myElement = document.querySelector('.myElement');
+const closeButton = document.querySelector('.closeButton');
+const openButton = document.querySelector('.openButton');
+const modalMenus = document.querySelectorAll('.modalMenu');
 
-  // Додаємо обробник подій для кнопки "Додати текст"
-  addButton.addEventListener('click', function () {
-    // Зчитуємо поточне значення атрибуту "class"
-    let currentClassValue = myElement.getAttribute('class');
+openButton.addEventListener('click', () => {
+  const modalClass = ' is-open';
 
-    // Додаємо текст до поточного значення
-    let newText = ' is-open';
-    let updatedClassValue = currentClassValue + newText;
+  const currentClassValue = myElement.getAttribute('class');
+  let updatedClassValue = currentClassValue + modalClass;
 
-    // Встановлюємо оновлене значення атрибуту "class"
-    myElement.setAttribute('class', updatedClassValue);
-  });
+  myElement.setAttribute('class', updatedClassValue);
+});
 
-  // Додаємо обробник подій для кнопки "Видалити текст"
-  removeButton.addEventListener('click', function () {
-    // Зчитуємо поточне значення атрибуту "class"
-    let currentClassValue = myElement.getAttribute('class');
+closeButton.addEventListener('click', () => {
+  const modalClass = ' is-open';
 
-    // Видаляємо текст з поточного значення
-    let newText = ' is-open';
-    let updatedClassValue = currentClassValue.replace(newText, '');
+  const currentClassValue = myElement.getAttribute('class');
+  const updatedClassValue = currentClassValue.replace(modalClass, '');
+  myElement.setAttribute('class', updatedClassValue);
+});
 
-    // Встановлюємо оновлене значення атрибуту "class"
-    myElement.setAttribute('class', updatedClassValue);
+modalMenus.forEach(modalMenu => {
+  modalMenu.addEventListener('click', () => {
+    const modalNav = ' is-open';
+
+    const currentNavClassValue = myElement.getAttribute('class');
+    const updatedNavClassValue = currentNavClassValue.replace(modalNav, '');
+
+    myElement.setAttribute('class', updatedNavClassValue);
   });
 });
